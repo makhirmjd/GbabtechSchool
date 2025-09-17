@@ -64,10 +64,4 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.5" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\GbabtechSchool.Application\GbabtechSchool.Application.csproj" />
-	  <ProjectReference Include="..\GbabtechSchool.Domain\GbabtechSchool.Domain.csproj" />
-	  <ProjectReference Include="..\GbabtechSchool.Infrastructure\GbabtechSchool.Infrastructure.csproj" />
-	</ItemGroup>
-
 </Project>

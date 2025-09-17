@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Finbuckle.MultiTenant" Version="9.4.0" />
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="9.4.0" />
+    <PackageReference Include="Finbuckle.MultiTenant.EntityFrameworkCore" Version="9.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GbabtechSchool.Application\GbabtechSchool.Application.csproj" />
     <ProjectReference Include="..\GbabtechSchool.Domain\GbabtechSchool.Domain.csproj" />
   </ItemGroup>

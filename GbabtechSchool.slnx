@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="GbabtechSchool.Api/GbabtechSchool.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="GbabtechSchool.Application/GbabtechSchool.Application.csproj" />
+    <Project Path="GbabtechSchool.Domain/GbabtechSchool.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Frontend/">
+    <Project Path="GbabtechSchool/GbabtechSchool.Client/GbabtechSchool.Client.csproj" />
+    <Project Path="GbabtechSchool/GbabtechSchool/GbabtechSchool.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="GbabtechSchool.Infrastructure/GbabtechSchool.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Mobile/">
+    <Project Path="GbabtechSchool.Maui/GbabtechSchool.Maui.csproj" />
+  </Folder>
+  <Folder Name="/src/Tools/">
+    <Project Path="GbabtechSchool.MigrationsRunner/GbabtechSchool.MigrationsRunner.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="GbabtechSchool.IntegrationTests/GbabtechSchool.IntegrationTests.csproj" />
+    <Project Path="GbabtechSchool.UITests.Mobile/GbabtechSchool.UITests.Mobile.csproj" />
+    <Project Path="GbabtechSchool.UITests.Web/GbabtechSchool.UITests.Web.csproj" />
+    <Project Path="GbabtechSchool.UnitTests/GbabtechSchool.UnitTests.csproj" />
+  </Folder>
+</Solution>

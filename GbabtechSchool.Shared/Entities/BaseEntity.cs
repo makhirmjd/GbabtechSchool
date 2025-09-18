@@ -1,4 +1,4 @@
-﻿namespace GbabtechSchool.Domain.Entities;
+﻿namespace GbabtechSchool.Shared.Entities;
 
 public class BaseEntity
 {

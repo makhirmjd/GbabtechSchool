@@ -19,6 +19,7 @@
   </Folder>
   <Folder Name="/src/Tools/">
     <Project Path="GbabtechSchool.MigrationsRunner/GbabtechSchool.MigrationsRunner.csproj" />
+    <Project Path="GbabtechSchool.Shared/GbabtechSchool.Shared.csproj" Id="bf2964f1-fa0c-41ff-9b06-47d88027b72f" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="GbabtechSchool.IntegrationTests/GbabtechSchool.IntegrationTests.csproj" />

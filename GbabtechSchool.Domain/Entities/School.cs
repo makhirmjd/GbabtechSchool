@@ -1,6 +1,8 @@
-﻿namespace GbabtechSchool.Domain.Entities;
+﻿using GbabtechSchool.Shared.Entities;
 
-public class School
+namespace GbabtechSchool.Domain.Entities;
+
+public class School : BaseEntity
 {
     public int Id { get; set; }
     public string Name { get; set; } = default!;

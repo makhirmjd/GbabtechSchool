@@ -1,9 +1,10 @@
 ﻿using Finbuckle.MultiTenant.Abstractions;
+using GbabtechSchool.Shared.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace GbabtechSchool.Infrastructure.Tenancy;
 
-public class GbabtechSchoolTenantInfo : ITenantInfo
+public class GbabtechSchoolTenantInfo : BaseEntity, ITenantInfo
 {
     [Required]
     public string? Id { get; set; }
